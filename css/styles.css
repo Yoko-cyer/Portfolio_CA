@@ -1,0 +1,208 @@
+html {
+    font-size: 100%; 
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color:#B4F8C8;
+
+}
+
+/* mobile version */
+/* navbar in all pages */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+/* mobile version */
+    
+    /* home */
+    
+    .big-bg {
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    
+    #home {
+        background-image: url(https://designshack.net/wp-content/uploads/abstract-background.jpg);
+    }
+    
+    .home {
+        text-align: center;
+    }
+    
+    .title {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 40px;
+        text-align: center;
+    
+    }
+    
+    .home h1 {
+        
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        
+    }
+    .home h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+    }
+    
+    .yoko-img {
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+       
+    }
+    
+    footer {
+        text-align: center;
+       
+    }
+    
+    /* about me page */
+    
+    .about h2 {
+        font-family: 'IBM Plex Serif', serif;
+        border-left: 10px blue;
+        font-size: 20px;
+    }
+    .about p {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 18px;
+    }
+    
+    
+    /* skills page */
+    
+    hr {
+        color: black;
+    }
+    
+    .my-skills h2 {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .my-skills p {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'IBM Plex Serif', serif;
+    }
+    
+    .tech-skills, .nontech-skills {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'IBM Plex Serif', serif;
+        font-weight: bold;
+    
+    }
+    
+    
+    /* resume page */
+    
+    .my-resume h2 {
+        text-align: center;
+        font-size: 40px;
+        font-style: italic;
+    }
+    
+    .linkedin h2 {
+        text-align: center;
+        font-size: 40px;
+        font-style: italic;
+    }
+    
+    /* blog page */
+    
+    .blog-title {
+        text-align: center;
+        font-family: 'IBM Plex Serif', serif;
+    }
+    
+    .article {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 20px;
+    }
+    
+    /* contact page */
+    
+    .contact h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .contact h2 {
+        text-align: center;
+    }
+    
+    input {
+        width: 50x;
+        height: 30px;
+    }
+    
+    .details h3 {
+        font-size: 20px;
+    }
+    
+/* tablet version */
+

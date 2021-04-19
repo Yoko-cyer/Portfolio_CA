@@ -15,6 +15,12 @@ body {
 
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* mobile version */
 /* navbar in all pages */
 
@@ -87,22 +93,23 @@ body {
         text-align: center;
     }
     
-    .title {
-        font-family: 'IBM Plex Serif', serif;
+.title {
+        font-family: sans-serif;
         font-size: 40px;
         text-align: center;
+        margin: 10px 0;
     
     }
     
     .home h1 {
         
-        font-family: 'Dancing Script', cursive;
-        font-size: 50px;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 40px;
         
     }
     .home h2 {
-        font-family: 'Dancing Script', cursive;
-        font-size: 40px;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 30px;
     }
     
     .yoko-img {
@@ -121,19 +128,22 @@ body {
     
     .about h2 {
         font-family: 'IBM Plex Serif', serif;
-        border-left: 10px blue;
-        font-size: 20px;
+        font-size: 25px;
+        margin-top: 10px;
+        margin: 10px 10px 0;
     }
     .about p {
         font-family: 'IBM Plex Serif', serif;
+        
         font-size: 18px;
+        margin: 10px 10px 0;
     }
-    
     
     /* skills page */
     
    .skills ul {
        list-style-type: none;
+       margin: 10px 10px 0;
    }
     
    .tech-skills li, .nontech-skills li  {
@@ -143,29 +153,54 @@ body {
    
    .skills h2 {
     font-family: 'IBM Plex Serif', serif;
+    margin: 10px 10px 0;
    }
 
 
     /* resume page */
     
     .resume h2 {
-        font-family: 'IBM Plex Serif', serif;
+        font-family: sans-serif;
         font-size: 30px;
+        margin: 10px 10px 0;
         
     }
 
+
+.my-resume, .linkedin {
+  margin-top: 30px;
+
+}
+
+.resume p {
+  margin: 10px 10px 0;
+  font-family: sans-serif;
+}
+
     
     /* blog page */
+.blog h1{
+    font-size: 30px;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+.blog p {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 15px;
+}
+
+
     
-    .blog-title {
-        text-align: center;
-        font-family: 'IBM Plex Serif', serif;
-    }
+.blog-title {
+        
+    font-family: 'IBM Plex Serif', serif;
+}
     
-    .article {
-        font-family: 'IBM Plex Serif', serif;
-        font-size: 20px;
-    }
+.article {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+}
     
     /* contact page */
 

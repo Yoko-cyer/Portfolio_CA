@@ -132,32 +132,20 @@ body {
     
     /* skills page */
     
-    hr {
-        color: black;
-    }
+   .skills ul {
+       list-style-type: none;
+   }
     
-    .my-skills h2 {
-        font-family: 'Dancing Script', cursive;
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    .my-skills p {
-        text-align: center;
-        font-size: 30px;
-        font-family: 'IBM Plex Serif', serif;
-    }
-    
-    .tech-skills, .nontech-skills {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        font-family: 'IBM Plex Serif', serif;
-        font-weight: bold;
-    
-    }
-    
-    
+   .tech-skills li, .nontech-skills li  {
+       padding-top: 10px;
+       font-family: 'IBM Plex Serif', serif;
+   }
+   
+   .skills h2 {
+    font-family: 'IBM Plex Serif', serif;
+   }
+
+
     /* resume page */
     
     .my-resume h2 {

@@ -26,46 +26,33 @@
         <i class="fa fa-bars"></i></a>
     </div>
 
-    <main>
-        <article class="contact">
-            <h1 class="title">Contact me!! Get in touch, I'm really nice.</h1>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact me</h2>
+        </div>
+        <div class="row">
 
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-6">
-                        <h1>My contact details☎</h1>
-                        <h3 class="phone">Phone me: 0000000000000</h3>
-                        <h3 class="email">email me: 0000000000000</h3>
-                    </div>
-    
-                    <div class="col-6">
-                        <h1 claas="title">Your contact details📱</h1>
-                        <form class="details">
-                            <h3>First name</h3>
-                            <input type="text">
-                            <h3>Last name</h3>
-                            <input type="text">
-                            <h3>email</h3>
-                            <input type="text">
-                            <h3>Phone</h3>
-                            <input type="text">
-                            <h3>Subject</h3>
-                            <input type="text">
-                            <h3>Message</h3>
-                            <textarea></textarea>
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-primary" type="button">Submit</button>
-                            </div>
-                        
-                        </form>
-    
-                    </div>
-                </div>
+            <div class="column">
+                <h2>Phone:0000000000</h2>
+                <h2>Email:0000000000</h2>
             </div>
-        </article>
-    </main>
+      
+            <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="email">Emal address</label>
+              <input type="text" name="emai" placeholder="Your email address..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+
+            </div>
+        </div>  
+
 
     <script>
         function myFunction() {

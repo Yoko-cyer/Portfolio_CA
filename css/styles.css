@@ -540,13 +540,16 @@ body {
          margin: 10px 10px 0;
      }
       
-     .tech-skills li, .nontech-skills li  {
-         padding-top: 10px;
-         font-family: 'IBM Plex Serif', serif;
+     .tech-skills ul {
+       display: flex;
+       justify-content: space-around;
+       padding-top: 10px;
+       font-family: 'IBM Plex Serif', serif;
      }
      
      .skills h2 {
       font-family: 'IBM Plex Serif', serif;
+      font-size: 30px;
       margin: 10px 10px 0;
      }
   

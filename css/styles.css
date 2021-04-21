@@ -96,7 +96,7 @@ body {
 .title {
         font-family: sans-serif;
         font-size: 40px;
-        text-align: center;
+        /* text-align: center; */
         margin: 10px 0;
     
     }
@@ -276,7 +276,7 @@ body {
 
 /* ############ tablet version ################ */
 
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .big-bg {
     background-size: cover;
     background-position: center top;
@@ -288,11 +288,11 @@ body {
   }
      
   .title {
-          font-family: sans-serif;
-          font-size: 45px;
-          text-align: center;
-          padding: 20px 0;
-      }
+    font-family: sans-serif;
+    font-size: 45px;
+    /* text-align: center; */
+    padding: 20px 0;
+  }
       
       .home h1 {
           
@@ -343,6 +343,8 @@ body {
      .tech-skills li, .nontech-skills li  {
          padding-top: 10px;
          font-family: sans-serif;
+         display: flex;
+         justify-content: space-around;
      }
      
      .skills h2 {
@@ -500,7 +502,7 @@ body {
 
 /* ############### PC version ################## */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .big-bg {
     background-size: cover;
@@ -513,20 +515,20 @@ body {
   }
      
   .title {
-          font-family: sans-serif;
-          font-size: 60px;
-          text-align: center;
-          padding: 20px 0;
-      }
+    font-family: sans-serif;
+    font-size: 45px;
+    /* text-align: center; */
+    padding: 20px 0;
+  }
       
       .home h1 {
           
-          font-family: sans-serif;
+          font-family: 'IBM Plex Serif', serif;
           font-size: 40px;
           margin: 50px 0;
       }
       .home h2 {
-          font-family: sans-serif;
+          font-family: 'IBM Plex Serif', serif;
           font-size: 30px;
           padding: 50px 0;
       }
@@ -547,14 +549,13 @@ body {
       /* ---------- about me page -----------------*/
 
       .about h2 {
-          font-family: 'IBM Plex Serif', serif;
+          font-family: sans-serif;
           font-size: 30px;
           margin: 20px 10px 0;
       }
-      .about p {
-          font-family: 'IBM Plex Serif', serif;
-          
-          font-size: 18px;
+      .aboutme {
+          font-family: sans-serif;
+          font-size: 30px;
           margin: 10px 10px 0;
       }
       
@@ -563,16 +564,21 @@ body {
      .skills ul {
          list-style-type: none;
          margin: 10px 10px 0;
+         display: flex;
+         justify-content: space-around;
+         font-size: 30px;
      }
       
      .tech-skills li, .nontech-skills li  {
          padding-top: 10px;
          font-family: sans-serif;
+        
      }
      
      .skills h2 {
       font-family: sans-serif;
-      margin: 10px 10px 0;
+      margin: 30px 10px 0;
+      font-size: 40px;
      }
 
      .nontech-skills {
@@ -718,7 +724,4 @@ body {
             margin-top: 0;
           }
         }
-
-
-
 }

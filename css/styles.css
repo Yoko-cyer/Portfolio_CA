@@ -508,31 +508,27 @@ body {
     background-repeat: no-repeat;
   }
       
-      #home {
-          background-image: url(https://designshack.net/wp-content/uploads/abstract-background.jpg);
-      }
-      
-      .home {
-          text-align: center;
-      }
-      
+  #home {
+    background-image: url(https://designshack.net/wp-content/uploads/abstract-background.jpg);
+  }
+     
   .title {
           font-family: sans-serif;
-          font-size: 40px;
+          font-size: 60px;
           text-align: center;
-          margin: 10px 0;
-      
+          padding: 20px 0;
       }
       
       .home h1 {
           
-          font-family: 'IBM Plex Serif', serif;
+          font-family: sans-serif;
           font-size: 40px;
-          
+          margin: 50px 0;
       }
       .home h2 {
-          font-family: 'IBM Plex Serif', serif;
+          font-family: sans-serif;
           font-size: 30px;
+          padding: 50px 0;
       }
       
       .yoko-img {
@@ -544,20 +540,22 @@ body {
       
       footer {
           text-align: center;
+          margin-top: 50px;
          
       }
       
       /* ---------- about me page -----------------*/
-      
-      .about-title{
-          font-family: sans-serif;
+
+      .about h2 {
+          font-family: 'IBM Plex Serif', serif;
           font-size: 30px;
           margin: 20px 10px 0;
       }
       .about p {
-          font-family: sans-serif;
-          font-size: 25px;
-          margin: 20px 10px 0;
+          font-family: 'IBM Plex Serif', serif;
+          
+          font-size: 18px;
+          margin: 10px 10px 0;
       }
       
       /* ------------- skills page ----------------- */
@@ -567,52 +565,54 @@ body {
          margin: 10px 10px 0;
      }
       
-     .tech-skills ul {
-       display: flex;
-       justify-content: space-around;
-       padding-top: 10px;
-       font-family: 'IBM Plex Serif', serif;
-       font-size: 30px;
+     .tech-skills li, .nontech-skills li  {
+         padding-top: 10px;
+         font-family: sans-serif;
      }
-
-  .nontech-skills {
-    margin-top: 30px;
-  }
      
-  .nontech-skills ul {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
-    font-family: sans-serif;
-    font-size: 30px;
-  }
      .skills h2 {
-      font-family: 'IBM Plex Serif', serif;
-      font-size: 30px;
+      font-family: sans-serif;
       margin: 10px 10px 0;
      }
-  
+
+     .nontech-skills {
+       padding-top: 50px;
+     }
+
   
       /* ------------- resume page -------------------*/
       
-      .resume h2 {
-          font-family: sans-serif;
-          font-size: 30px;
-          margin: 10px 10px 0;
+  .resume h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 10px 10px 0;
           
-      }
+  }
   
   
-  .my-resume, .linkedin {
+  .my-resume {
     margin-top: 30px;
   
   }
   
+  .linkedin {
+    padding-top: 50px;
+  }
+
+
   .resume p {
     margin: 10px 10px 0;
+    font-size: 30px;
     font-family: sans-serif;
   }
+
+  .my-resume p {
+    padding-top: 30px;
+  }
   
+  .linkedin p {
+    padding-top: 30px;
+  }
       
   /* --------------- blog page --------------- */
   .blog h1{
@@ -642,7 +642,17 @@ body {
   .article {
       font-family: 'IBM Plex Serif', serif;
       font-size: 20px;
-      margin: 10px;
+      margin: 20px 10PX;
+  }
+
+  .date {
+    font-family: sans-serif;
+  }
+
+  .blog-article img {
+    height: 600PX;
+    width: 500px;
+    margin-bottom: 20px;
   }
       
   /* ---------------- contact page --------------*/
@@ -708,5 +718,7 @@ body {
             margin-top: 0;
           }
         }
+
+
 
 }

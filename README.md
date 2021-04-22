@@ -46,10 +46,16 @@
 # Screenshots #
 
 ## Sitemap ##
-![sitemap](img/sitemap.png)
-
+![sitemap](img/new-sitemap.png)
 
 ## Wireframe ##
+
+![home]()
+![about]()
+![skills]()
+![resume]()
+![blog]()
+![contact]()
 
 ## Actual website ##
 

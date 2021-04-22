@@ -1,0 +1,113 @@
+commit 1f0bdb4a48208d53bb711c9533edcf93cc983963
+Author: Yoko-cyer <yokoujihara622@gmail.com>
+Date:   Thu Apr 22 20:12:33 2021 +1000
+
+    done Readme
+
+commit 5e8bbb0134fd4c4aab0fd63bb9acf5f0754bb5ea
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Thu Apr 22 14:31:39 2021 +1000
+
+    uploaded wireframe photos
+
+commit f3e6588cb92d4202329bc74ff9efaa86459924df
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Thu Apr 22 09:18:14 2021 +1000
+
+    made changes to readme
+
+commit 7fe4fb3e9b6176f4baf7eeccdbf2924ca2086ff4
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Thu Apr 22 08:02:25 2021 +1000
+
+    almost done with html and css started readm
+
+commit ac24948a213e4898d52cef8de505f2a4e7e62b00
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Thu Apr 22 07:06:03 2021 +1000
+
+    make changes to pc home
+
+commit 2c614f834a4161ce292f43b60b2475e34ab9532a
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Wed Apr 21 16:23:32 2021 +1000
+
+    add readme and SRI
+
+commit 6b9c8fa6d5b4936328e3626e25fc4d81197f46df
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Wed Apr 21 15:44:02 2021 +1000
+
+    add resume
+
+commit 33f7f202636832cafd65543e378274be414ff4b8
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Tue Apr 20 15:43:39 2021 +1000
+
+    make changes to ipad skills page
+
+commit 7a5692d302c205ed1e02ce7dd8a6e53e48f7c9fd
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Tue Apr 20 13:31:30 2021 +1000
+
+    done ipad about
+
+commit ef7da23138031064457df5eaeeae76b86018e216
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Tue Apr 20 11:55:13 2021 +1000
+
+    done ipad home
+
+commit d35b3ae2875df468095c540f78f26ec421c665c5
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Tue Apr 20 10:45:44 2021 +1000
+
+    Make changes to contact & blog page
+
+commit 4c0690cd5043124afadc47701bf2b948d3b60bce
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Tue Apr 20 09:35:56 2021 +1000
+
+    Make changes to resume page
+
+commit 5ea0886726b7994a67bfcbe0d3d9703e2173e3f8
+Author: Yoko-cyer <yokoujihara622@gmail.com>
+Date:   Tue Apr 20 09:33:48 2021 +1000
+
+    Make changes to resume page
+
+commit 368984ec830080fb3799477a1edf69656d65a62a
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Mon Apr 19 16:29:15 2021 +1000
+
+    make changes to resume page
+
+commit 6b4bc6b6dd75d18eff925843102dae09641d7129
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Mon Apr 19 16:23:18 2021 +1000
+
+    make changes to skills pages
+
+commit b70cbe9dfdf967c800289d4611e1bbf8cbd461c0
+Author: Yoko-cyer <yokoujihara622@gmail.com>
+Date:   Mon Apr 19 16:18:44 2021 +1000
+
+    Make changes to skills page
+
+commit 7a6a3a7b9a8a78ed9cf80ce199c7b34cc1c0bd36
+Author: Yoko-cyer <yokoujihara622@gmail.com>
+Date:   Mon Apr 19 15:23:32 2021 +1000
+
+    Make changes to contact page
+
+commit 92142761004bc94ea00faec77161f5fd88216eb4
+Author: root <root@DESKTOP-S3GB9R0.localdomain>
+Date:   Mon Apr 19 14:21:42 2021 +1000
+
+    First commit
+
+commit 820bfc68c73d97458f25da6268bc303165a47696
+Author: Yoko-cyer <yokoujihara622@gmail.com>
+Date:   Mon Apr 19 14:10:18 2021 +1000
+
+     mobile first

@@ -83,3 +83,7 @@
 
 ### Contact ### 
 ![contact](img/contact-screen.png)
+
+## trello ##
+![trelllo](img/trello.png)
+[Link to my trello board](https://trello.com/b/dJoDbAo1/ca-portfolio)

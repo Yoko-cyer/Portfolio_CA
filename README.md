@@ -50,12 +50,36 @@
 
 ## Wireframe ##
 
-![home]()
-![about]()
-![skills]()
-![resume]()
-![blog]()
-![contact]()
+### Home ###
+![home](img/home.png)
+### About ###
+![about](img/about.png)
+### Skills ###
+![skills](img/skills.png)
+### Resume ###
+![resume](img/resume.png)
+### Blog ###
+![blog](img/blog.png)
+### Contact ###
+![contact](img/contact.png)
 
-## Actual website ##
+## Actual website image ##
 
+### Home ### 
+![home](img/home-screen.png)
+
+### About ### 
+
+![about](img/about-screen.png)
+
+### Skills ### 
+![skills](img/skills-screen.png)
+
+### Resume ### 
+![resume](img/resume-screen.png)
+
+### Blog ### 
+![blog](img/blog-screen.png)
+
+### Contact ### 
+![contact](img/contact-screen.png)
